@@ -41,19 +41,25 @@ This function should only modify configuration layer settings."
      ;; auto-completion
      ;; better-defaults
      emacs-lisp
-     ;; git
+     git
+     haskell
      helm
-     ;; lsp
+     lsp
      ;; markdown
      multiple-cursors
      ;; org
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)
-     ;; spell-checking
-     ;; syntax-checking
+     (shell :variables
+            shell-default-height 25
+            shell-default-position 'bottom)
+     spell-checking
+     syntax-checking
+     themes-megapack
+     treemacs
      ;; version-control
-     treemacs)
+     )
 
 
    ;; List of additional packages that will be installed without being wrapped
